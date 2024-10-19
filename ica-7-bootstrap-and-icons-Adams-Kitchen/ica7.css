@@ -1,0 +1,66 @@
+#carouselExampleFade {
+    width: 500px; 
+    margin-top: 40px; 
+    margin-left: 20%;
+  }
+  
+  .carousel-inner img {
+    width: 100%; /* Ensure images cover the carousel width */
+    height: 100%; /* Ensure images cover the carousel height */
+    object-fit: cover; /* Maintain aspect ratio and cover carousel */
+  }
+  .card {
+    margin-top: 40px;
+    width: 500px;
+    border:2px solid #274463 ;
+  }
+.carousel {
+border: 2px solid #274463 ;
+
+}
+
+body {
+    background-color: rgb(235, 223, 207);
+    font-family: "Newsreader", serif;
+}
+
+.accordion-button {
+    background-color: #f8f9fa; /* Light grey */
+    color: #000; /* Text color */
+    border-color: #f8f9fa; /* Border color */
+    height: 30px;
+  }
+/* Hover state */
+.accordion-button:hover {
+    background-color: #f0f0f0; /* Light grey */
+    color: #000; /* Text color */
+  }
+  
+  /* Active state (when the section is open) */
+  .accordion-button:not(.collapsed) {
+    background-color: #274463; /* Blue background for active button */
+    color: white; /* White text for better contrast */
+    border-color: #007bff; /* Border color matching the background */
+  }
+  
+  /* Change the color of the border when clicked */
+  .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+  }
+  .accordion-body {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 15px; /* Optional: padding to space out content */
+  }
+  
+  /* Optional: Change background color for active accordion body */
+  .accordion-body.show {
+    background-color: #e9ecef; /* Slightly darker gray for the active body */
+  }
+
+  .scrollspy-example {
+    border: 2px solid #274463;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
